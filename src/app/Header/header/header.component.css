@@ -2,10 +2,16 @@
     background-color: #32A29D; 
     color: WHITE;
     height:50px;
+    margin-left: -40;
 }
 
 .header h4 {
     padding: 13px;
     margin-top: 0px; 
     width: 102%;
+}
+
+.notification {
+    float: right;
+    margin-left: 60px;
 }

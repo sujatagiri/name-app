@@ -1,28 +1,17 @@
-/* .dashborad{
-    background-color: green;
+app-sidebar {
+    float: left; 
+    width:25%;
 }
-.sidebar-nav{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 250px;
+
+
+app-header {
+    float:left; 
+    width:84%;
+    margin-left: -116px;
 }
-.sidebar-nav li{
-    text-indent: 20px;
-    line-height: 40px;
+
+app-dashboard {
+    float:left;
+    width:75%;
+    margin-left: -20px;
 }
-.sidebar-nav li a {
-    display: block;
-    color: #999999;
-    text-decoration: none;
-}
-#side-wrapper{
- position: fixed;
- left: 250px;
- z-index: 1000;
- overflow-y: auto;
- margin-left: 250px;
- width:0px;
-height: 100%;
-background-color: #999999;
-} */
