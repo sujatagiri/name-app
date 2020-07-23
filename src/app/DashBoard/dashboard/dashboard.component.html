@@ -1,112 +1,183 @@
-<header style="background-color: white; height: 14px;
-border-bottom: 2px grey;
-margin-left: 4px;">
-    <div style="float: right;">
-        <span class="glyphicon glyphicon-share"></span> &nbsp; &nbsp; &nbsp;
-        <span class="glyphicon glyphicon-print"></span> &nbsp; &nbsp; &nbsp;
-        <span class="glyphicon glyphicon-download"></span> &nbsp; &nbsp; &nbsp;
+<header>
+    <div class="body-header">
+        <i class="fa fa-share-alt header-icons"></i>
+        <span class="glyphicon glyphicon-print header-icons"></span>
+        <span class="fa fa-download header-icons"></span>
     </div>
 </header>
 
-
-<nav>
-    <div style="background-color: #f9f9f9; height: 120px;">
-    <h5> Sales Activity(95)</h5>
-    <ul style="list-style-type:none;">
-        <li>
-            <button style=" padding:10px;box-shadow: 0px 8px 16px 0px grey">
-                <span class="glyphicon glyphicon-ok-circle" style="float: left;"></span>
-                <span style="float: left;">New Order</span> <span style="float:right; "> 29</span><br>
-                <p><span class="glyphicon glyphicon-arrow-up"></span>15 % from this yesterday</p>
-            </button>
-
-        </li>
-        <li>
-            <button style=" padding:10px;box-shadow: 0px 8px 16px 0px grey">
-                <span class="glyphicon glyphicon-ok-circle" style="float: left;"></span>
-                <span style="float: left;">New Order</span> <span style="float:right; "> 29</span><br>
-                <p><span class="glyphicon glyphicon-arrow-up"></span>15 % from this yesterday</p>
-            </button>
-        </li>
-        <li>
-            <button style=" padding:10px;box-shadow: 0px 8px 16px 0px grey">
-                <span class="glyphicon glyphicon-ok-circle" style="float: left;"></span>
-                <span style="float: left;">New Order</span> <span style="float:right; "> 29</span><br>
-                <p><span class="glyphicon glyphicon-arrow-up"></span>15 % from this yesterday</p>
-            </button>
-        </li>
-        <li>
-            <button style=" padding:10px;box-shadow: 0px 8px 16px 0px grey">
-                <span class="glyphicon glyphicon-ok-circle" style="float: left;"></span>
-                <span style="float: left;">New Order</span> <span style="float:right; "> 29</span><br>
-                <p><span class="glyphicon glyphicon-arrow-up"></span>15 % from this yesterday</p>
-            </button>
-        </li>
-    </ul>
-</div>
-</nav>
-
-<div class=clear>
-
-</div>
-
-<div class="row" style="margin-top:12%">
-    <div class="col-md-6" style="border:0.5px solid grey; margin-left: 10px;">
-        <h5 style="text-align: left;
-        margin-left: 48px;"> Task</h5>
-        <div class="border-bottom:2px red">
-            <ul style="list-style-type:none; ">
-                <li>
-                    <button style=" padding:  10px; font-size:  12px; border: none; cursor: pointer;
-                background: #f9f9f9;width: 400px;">
-                        <span style="color: #f19574; float: left;">Medium </span>
-                        <span style="float: left; ">(30)</span>
-                        <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
-                        </span>
-                    </button>
-                <li>
-
-                <li style="margin-top: 5px;">
-                    <button style=" padding:  10px; font-size:  12px; border: none; cursor: pointer;
-                background: #f9f9f9;width: 400px;">
-                        <span style="color: #f19574; float: left;">Medium </span>
-                        <span style="float: left; ">(30)</span>
-                        <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
-                        </span>
-                    </button>
-                <li>
-
-                <li style="margin-top: 5px;">
-                    <button style=" padding:  10px; font-size:  12px; border: none; cursor: pointer;
-                background: #f9f9f9;width: 400px;">
-                        <span style="color: #f19574; float: left;">Low </span>
-                        <span style="float: left; ">(30)</span>
-                        <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
-                        </span>
-                    </button>
-                <li>
-            </ul>
+<div class="container main-section">
+    <div class="row">
+        <h4> Sales Activity <span class="bolder">(90)</span></h4>
+        <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+            <div class="row boxes">
+                <div class="col-md-12 col-sm-12 col-xs-12 box-description">
+                    <div>
+                        <i class="fa fa-check-circle fa-lg circle" aria-hidden="true"></i>
+                        <span class="float-left">New Order</span>
+                        <span class="score"> 29</span>
+                        <div class="grey"><span class="glyphicon glyphicon-arrow-up green1"></span>15% from this
+                            yesterday</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+            <div class="row boxes">
+                <div class="col-md-12 col-sm-12 col-xs-12 box-description">
+                    <div>
+                        <i class="fa fa-check-circle fa-lg circle" aria-hidden="true"></i>
+                        <span class="float-left">To Be Shipped</span>
+                        <span class="score"> 35</span>
+                        <div class="grey">
+                            <span class="glyphicon glyphicon-arrow-up green2"></span>15% from this yesterday
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+            <div class="row boxes">
+                <div class="col-md-12 col-sm-12 col-xs-12 box-description">
+                    <div><i class="fa fa-check-circle fa-lg circle" aria-hidden="true"></i>
+                        <span class="float-left">To Be Invoiced</span> <span class="score"> 17</span>
+                        <div class="grey"><span class="glyphicon glyphicon-arrow-up green2"></span>15% from this
+                            yesterday</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+            <div class="row boxes">
+                <div class="col-md-12 col-sm-12 col-xs-12 box-description">
+                    <div>
+                        <i class="fa fa-check-circle fa-lg circle" aria-hidden="true"></i>
+                        <span class="float-left">To Be delivered</span> <span class="score"> 34</span>
+                        <div class="grey"><span class="glyphicon glyphicon-arrow-up green2"></span>15% from this
+                            yesterday</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
+
+<div class="row container-body">
+    <div class="col-md-6 tasks">
+        <div class="card">
+            <div class="card-header"> Task</div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <button class="tasklist">
+                            <span id="task-content">High </span>
+                            <span id="task-score">(30)</span>
+                            <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
+                            </span>
+                        </button>
+                    <li>
+
+                    <li>
+                        <button class="tasklist">
+                            <span id="task-content">Medium </span>
+                            <span id="task-score">(20)</span>
+                            <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
+                            </span>
+                        </button>
+                    <li>
+                    <li>
+                        <button class="tasklist">
+                            <span id="task-content">Low </span>
+                            <span id="task-score">(15)</span>
+                            <span class="glyphicon glyphicon-triangle-bottom" style="float: right;">
+                            </span>
+                        </button>
+                    <li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 tasks">
+        <div class="card">
+            <div class="card-header"> Top Selling Varients</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span id="seller-title">Arbutus </span>
+                        <div class="seller-info">
+                            <span id="seller-name">Marina</span>
+                            <span id="seller-score">25</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span id="seller-title">Sempervirens </span>
+                        <div class="seller-info">
+                            <span id="seller-name">Buxus</span>
+                            <span id="seller-score">25</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span id="seller-title">Camellia </span>
+                        <div class="seller-info">
+                            <span id="seller-name">Jab Purity</span>
+                            <span id="seller-score">25</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span id="seller-title">Betula </span>
+                        <div class="seller-info">
+                            <span id="seller-name">Utilis</span>
+                            <span id="seller-score">25</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row container-body">
     <div class="col-md-6">
-        <h5 style="text-align: center;"> Top selling varients</h5>
-
-        <ul style="list-style-type:none;">
-            <li style="text-indent: 10px; line-height: 40px; ">
-                <a style="display: block;text-decoration: none;"><span class="glyphicon glyphicon-envelope">
-                    </span>Task & Assignment</a>
-            </li>
-            <li style="text-indent: 10px; line-height: 40px; ">
-                <a style="display: block;  text-decoration: none;"><span class="glyphicon glyphicon-envelope">
-                    </span>Task & Assignment</a>
-            </li>
-            <li style="text-indent: 10px; line-height: 40px; ">
-                <a style="display: block;  text-decoration: none;"><span class="glyphicon glyphicon-envelope">
-                    </span>Task & Assignment</a>
-            </li>
-        </ul>
-
+        <div class="card">
+            <div class="card-header"> Products</div>
+            <div>
+                
+                <div id="container-slider">
+                    <div id="grid" class="image-cropper">
+                      <img *ngFor="let url of imageUrls; let i = index" 
+                        [@move]="state" 
+                        (@move.done)="onFinish($event)" 
+                        (@move.start)="onStart($event)" 
+                        [attr.class]="i" 
+                        [src]="url"
+                        alt="" />
+                    </div>
+                    <div>
+                      <a id="slider-buttons-left" (click)="moveLeft()">&#10094;</a>
+                      <a id="slider-buttons-right" (click)="moveRight()">&#10095;</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 tasks">
+        <div class="card">
+            <div class="card-header"> Stock Details</div>
+            <div class="card-body">
+                <div class="row">
+                <div class="col-md-5">
+                    <img src="assets/pie.png">
+                </div>
+                <div class="col-md-7" style="font-size: 16px; padding-top: 15px; ">
+                    <p style="padding-bottom: 15px;">Low Stock Variants <span style="color: #f19574;">30%</span></p>
+                    <p style="padding-bottom: 15px;">Surplus <span style="color: #a0d9f2;"> 27%</span></p>
+                    <p>All Variants <span style="color: green;"> 43%</span></p>
+                </div>
+            </div>
+            </div>
+        </div>
 
     </div>
 </div>

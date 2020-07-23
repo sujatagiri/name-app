@@ -2,7 +2,7 @@
     background-color: #32A29D; 
     color: WHITE;
     height:50px;
-    margin-left: -40;
+    margin-left: 2%;
 }
 
 .header h4 {
@@ -13,5 +13,17 @@
 
 .notification {
     float: right;
-    margin-left: 60px;
+    margin-right: 80px;
+    color: white;
+}
+
+img {
+    float: right;
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+    object-fit: cover;
+    border-radius: 96%;
+    margin-right: -75px;
+    margin-top: -9px;
 }

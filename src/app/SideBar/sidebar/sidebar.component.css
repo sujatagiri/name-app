@@ -14,7 +14,7 @@
     background: transparent;
 }
 .hiddenlist {
-    height: 250px;
+    height: 300px;
     width: 125%;
     margin-left: -40px;
     background-color:#607d8b;
@@ -30,7 +30,7 @@
 }
 
 .sidebar img {
-    height: 100px;
+    height: 90px;
     width: 100%;
 }
 .sidebar ul {
